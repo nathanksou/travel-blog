@@ -2,7 +2,12 @@ import fs from "fs";
 import path from "path";
 
 type BlogPost = {
-  top: string[];
+  overview: string;
+  recommendations: string[];
+  tips: {
+    heading: string;
+    details: string;
+  }[];
 };
 
 // Function to get a single post y slug

@@ -1,32 +1,35 @@
-import type { BlogOverview } from "@/lib/getOverviews";
-import { getAllOverviews, getOverviewBySlug } from "@/lib/getOverviews";
-import { getPostBySlug } from "@/lib/getPosts";
+import { ChevronLeftIcon } from "@heroicons/react/24/solid";
+import {
+  Destination,
+  getAllDestinations,
+  getDestinationBySlug,
+} from "@/lib/destinations";
+import { getPostBySlug } from "@/lib/posts";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ChevronLeftIcon } from "@heroicons/react/24/solid";
 
 type Props = {
   params: { slug: string };
 };
 
 export function generateStaticParams() {
-  return getAllOverviews().map((overview: BlogOverview) => ({
-    slug: overview.slug,
+  return getAllDestinations().map((destination: Destination) => ({
+    slug: destination.slug,
   }));
 }
 
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
 
-  const overview = getOverviewBySlug(slug);
+  const destination = getDestinationBySlug(slug);
 
-  if (!overview) return { title: "Blog Post Overview Not Found" };
+  if (!destination) return { title: "Destination Not Found" };
 
   return {
-    title: `${overview.title} | Travel Blog`,
+    title: `${destination.name} | Travel Blog`,
     openGraph: {
-      title: overview.title,
-      images: [{ url: overview.image }],
+      title: destination.name,
+      images: [{ url: destination.image }],
     },
   };
 }
@@ -34,11 +37,11 @@ export async function generateMetadata({ params }: Props) {
 export default async function BlogPostPage({ params }: Props) {
   const { slug } = await params;
 
-  const overview = getOverviewBySlug(slug);
+  const destination = getDestinationBySlug(slug);
   const post = getPostBySlug(slug);
 
   // Show 404 page if overview is not found
-  if (!overview || !post) return notFound();
+  if (!destination || !post) return notFound();
 
   return (
     <main className="max-w-3xl mx-auto p-6">
@@ -46,9 +49,16 @@ export default async function BlogPostPage({ params }: Props) {
         <Link href="/" aria-label="Back to home">
           <ChevronLeftIcon className="h-6 w-6 mr-2" />
         </Link>
-        <h1 className="text-3xl font-bold">{overview.title}</h1>
+        <h1 className="text-3xl font-bold">{destination.name}</h1>
       </header>
-      <p>{post.top.join(", ")}</p>
+      <p>{post.overview}</p>
+      <p>{post.recommendations.join(", ")}</p>
+      {post.tips.map((tip, index) => (
+        <div key={`${index}`}>
+          <h2 className="text-xl font-bold">{tip.heading}</h2>
+          <p>{tip.details}</p>
+        </div>
+      ))}
     </main>
   );
 }

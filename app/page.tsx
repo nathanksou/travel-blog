@@ -1,18 +1,16 @@
-import { getAllOverviews } from "@/lib/getOverviews";
-import Link from "next/link";
+import { DestinationCard } from "@/components/DestinationCard";
+import { getAllDestinations } from "@/lib/destinations";
 
 export default function Home() {
-  const overviews = getAllOverviews();
+  const destinations = getAllDestinations();
 
   return (
-    <div className="py-4">
-      {overviews.map((overview) => (
-        <div key={overview.slug}>
-          <Link href={`/${overview.slug}`}>
-            <h1>{overview.title}</h1>
-          </Link>
-        </div>
-      ))}
+    <div className="p-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 max-w-[1300px] mx-auto">
+        {destinations.map((destination) => (
+          <DestinationCard key={destination.slug} destination={destination} />
+        ))}
+      </div>
     </div>
   );
 }
