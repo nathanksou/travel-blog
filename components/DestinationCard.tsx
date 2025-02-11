@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Destination } from "@/lib/destinations";
+import { Destination } from "@/lib/apis";
 import Image from "next/image";
 import Link from "next/link";
 

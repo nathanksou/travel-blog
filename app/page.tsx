@@ -1,8 +1,11 @@
 import { DestinationCard } from "@/components/DestinationCard";
-import { getAllDestinations } from "@/lib/destinations";
+import { getAllDestinationMeta } from "@/lib/apis";
 
-export default function Home() {
-  const destinations = getAllDestinations();
+export default async function Home() {
+  // TODO: Add a loading state
+  // TODO: Add a error state
+  // TODO: Add a no results state
+  const destinations = await getAllDestinationMeta();
 
   return (
     <div className="p-8">
