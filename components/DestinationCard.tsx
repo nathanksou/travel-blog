@@ -1,9 +1,13 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Destination } from "@/lib/apis";
+import { DestinationMeta } from "@/lib/apis";
 import Image from "next/image";
 import Link from "next/link";
 
-export function DestinationCard({ destination }: { destination: Destination }) {
+export function DestinationCard({
+  destination,
+}: {
+  destination: DestinationMeta;
+}) {
   return (
     <Link href={`/${destination.slug}`} className="w-full">
       <Card className="w-full h-[400px] bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all">
