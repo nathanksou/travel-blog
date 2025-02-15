@@ -1,4 +1,6 @@
-import { createClient, PRIVATE_BUCKET } from "./supabase/server";
+import { initClient } from "./supabase/client";
+
+const BUCKET_NAME = "destinations";
 
 export type DestinationMeta = {
   slug: string;
@@ -20,21 +22,14 @@ type Destination = {
 const fetchJsonFromPublicBucket = async <T>(
   fileName: string
 ): Promise<T | null> => {
-  const supabase = await createClient();
+  const supabase = initClient();
 
   try {
-    // Get the signed URL for the given file
-    const { data, error } = await supabase.storage
-      .from(PRIVATE_BUCKET)
-      .createSignedUrl(fileName, 60 * 60);
-
-    if (error) {
-      console.error(`Error generating signed URL for ${fileName}:`, error);
-      throw error;
-    }
+    // Get the public URL for the given file
+    const { data } = supabase.storage.from(BUCKET_NAME).getPublicUrl(fileName);
 
     // Fetch and return the content of the file
-    const response = await fetch(data.signedUrl);
+    const response = await fetch(data.publicUrl);
     return await response.json();
   } catch (e) {
     console.error(`Error fetching or parsing ${fileName}:`, e);
@@ -42,14 +37,14 @@ const fetchJsonFromPublicBucket = async <T>(
   }
 };
 
-// Fetch all destination meta from a private bucket
+// Fetch all destination meta from a public bucket
 export const getAllDestinationMeta = async (): Promise<DestinationMeta[]> => {
   const FILE_NAME = "destinations.json";
   const data = await fetchJsonFromPublicBucket<DestinationMeta[]>(FILE_NAME);
   return data || [];
 };
 
-// Fetch a single destination by slug from a private bucket
+// Fetch a single destination by slug from a public bucket
 export const getDestinationBySlug = async (
   slug: string
 ): Promise<Destination | null> => {
