@@ -1,23 +1,7 @@
 import { initClient } from "./supabase/client";
+import { DestinationMeta, Destination } from "./types";
 
 const BUCKET_NAME = "destinations";
-
-export type DestinationMeta = {
-  slug: string;
-  name: string;
-  image: string;
-};
-
-type Destination = {
-  slug: string;
-  name: string;
-  overview: string;
-  recommendations: string[];
-  tips: {
-    heading: string;
-    details: string;
-  }[];
-};
 
 const fetchJsonFromPublicBucket = async <T>(
   fileName: string

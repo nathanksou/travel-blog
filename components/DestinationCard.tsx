@@ -1,5 +1,5 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { DestinationMeta } from "@/lib/apis";
+import { Card, CardContent, CardTitle } from "@/components/ui/card";
+import { DestinationMeta } from "@/lib/types";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,21 +10,17 @@ export function DestinationCard({
 }) {
   return (
     <Link href={`/${destination.slug}`} className="w-full">
-      <Card className="w-full h-[400px] bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all">
-        {/* Image section (Takes up 350px height) */}
-        <CardHeader className="p-0 h-[350px]">
-          <Image
-            src={destination.image}
-            alt={destination.name}
-            width={400}
-            height={350}
-            className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
-          />
-        </CardHeader>
-
-        {/* Title section (50px height, centered) */}
-        <CardContent className="h-[50px] flex items-center justify-center p-4">
-          <CardTitle className="text-xl text-center">
+      <Card className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-lg cursor-pointer">
+        <Image
+          src={destination.image}
+          alt={destination.name}
+          width={400}
+          height={350}
+          className="w-full h-64 object-cover transition-transform duration-300 ease-in-out hover:scale-105"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/15 to-transparent"></div>
+        <CardContent className="absolute bottom-4 left-4 text-white">
+          <CardTitle className="text-xl text-right">
             {destination.name}
           </CardTitle>
         </CardContent>
