@@ -1,9 +1,9 @@
-import { ChevronLeftIcon } from "@heroicons/react/24/solid";
 import { getAllDestinationMeta, getDestinationBySlug } from "@/lib/apis";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Separator } from "@/components/ui/separator";
 import { TipsAccordion } from "@/components/TipsAccordion";
+import { DestinationHeader } from "@/components/DestinationHeader";
+import { RecommendationCards } from "@/components/RecommendationCards";
 
 type Props = {
   params: { slug: string };
@@ -42,15 +42,10 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <main className="max-w-3xl mx-auto p-6">
-      <header className="flex flex-start items-center">
-        <Link href="/" aria-label="Back to home">
-          <ChevronLeftIcon className="h-6 w-6 mr-2" />
-        </Link>
-        <h1 className="text-3xl font-bold">{destination.name}</h1>
-      </header>
+      <DestinationHeader title={destination.name} />
       <Separator />
       <p>{destination.overview}</p>
-      <p>{destination.recommendations.join(", ")}</p>
+      <RecommendationCards recommendations={destination.recommendations} />
       <TipsAccordion tips={destination.tips} />
     </main>
   );

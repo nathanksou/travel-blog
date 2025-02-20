@@ -1,4 +1,4 @@
-import { DestinationCard } from "@/components/DestinationCard";
+import { DestinationCards } from "@/components/DestinationCards";
 import { getAllDestinationMeta } from "@/lib/apis";
 
 export default async function Home() {
@@ -9,11 +9,7 @@ export default async function Home() {
 
   return (
     <div className="p-8">
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 max-w-[1300px] mx-auto">
-        {destinations.map((destination) => (
-          <DestinationCard key={destination.slug} destination={destination} />
-        ))}
-      </div>
+      <DestinationCards destinations={destinations} />
     </div>
   );
 }
