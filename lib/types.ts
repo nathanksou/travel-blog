@@ -4,15 +4,19 @@ export type DestinationMeta = {
   image: string;
 };
 
-export type Destination = {
-  slug: string;
-  name: string;
-  overview: string;
-  recommendations: string[];
-  tips: Tip[];
-};
-
 export type Tip = {
   heading: string;
   details: string;
+};
+
+export type Activity = {
+  name: string;
+  highlights: string[];
+};
+
+export type Destination = DestinationMeta & {
+  overview: string;
+  recommendations: string[];
+  activities: Activity[];
+  tips: Tip[];
 };
