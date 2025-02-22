@@ -16,15 +16,22 @@ export function ActivitiesAccordion({
       type="multiple"
       defaultValue={activities.map((_, index) => `activity-${index}`)}
     >
-      {activities.map((activity) => (
-        <AccordionItem key={activity.name} value={activity.name}>
+      {activities.map((activity, activityIndex) => (
+        <AccordionItem
+          key={`activity-${activityIndex}`}
+          value={`activity-${activityIndex}`}
+        >
           <AccordionTrigger className="text-lg font-bold">
             {activity.name}
           </AccordionTrigger>
           <AccordionContent>
             <ul className="list-disc pl-6">
-              {activity.highlights.map((highlight) => (
-                <li key={highlight}>{highlight}</li>
+              {activity.highlights.map((highlight, highlightIndex) => (
+                <li
+                  key={`activity-${activityIndex}-highlight-${highlightIndex}`}
+                >
+                  {highlight}
+                </li>
               ))}
             </ul>
           </AccordionContent>

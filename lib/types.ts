@@ -14,9 +14,19 @@ export type Activity = {
   highlights: string[];
 };
 
+export type Location = {
+  name: string;
+  blurb: string;
+};
+
+export type Suburb = Location & {
+  locations?: Location[];
+};
+
 export type Destination = DestinationMeta & {
   overview: string;
+  tips: Tip[];
   recommendations: string[];
   activities: Activity[];
-  tips: Tip[];
+  suburbs: Suburb[];
 };
