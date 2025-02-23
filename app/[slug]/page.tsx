@@ -1,11 +1,11 @@
 import { getAllDestinationMeta, getDestinationBySlug } from "@/lib/apis";
 import { notFound } from "next/navigation";
 import { Separator } from "@/components/ui/separator";
-import { DestinationHeader } from "@/components/DestinationHeader";
-import { TipsAccordion } from "@/components/TipsAccordion";
-import { RecommendationCards } from "@/components/RecommendationCards";
-import { ActivitiesAccordion } from "@/components/ActivitiesAccordion";
-import { SuburbsAccordion } from "@/components/SuburbsAccordion";
+import { DestinationHeader } from "@/components/destination/DestinationHeader";
+import { TipsAccordion } from "@/components/destination/TipsAccordion";
+import { RecommendationCards } from "@/components/destination/RecommendationCards";
+import { ActivitiesAccordion } from "@/components/destination/ActivitiesAccordion";
+import { SuburbsAccordion } from "@/components/destination/SuburbsAccordion";
 
 type Props = {
   params: { slug: string };

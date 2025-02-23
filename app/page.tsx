@@ -1,4 +1,4 @@
-import { DestinationCards } from "@/components/DestinationCards";
+import { DestinationCards } from "@/components/home/DestinationCards";
 import { getAllDestinationMeta } from "@/lib/apis";
 
 export default async function Home() {

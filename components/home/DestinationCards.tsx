@@ -1,4 +1,4 @@
-import { DestinationCard } from "@/components/DestinationCard";
+import { DestinationCard } from "@/components/home/DestinationCard";
 import { DestinationMeta } from "@/lib/types";
 
 type DestinationCardsProps = {
