@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
-export default async function BlogPostPage({ params }: Props) {
+export default async function DestinationPage({ params }: Props) {
   const { slug } = await params;
 
   const destination = await getDestinationBySlug(slug);
