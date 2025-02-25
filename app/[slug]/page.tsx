@@ -45,7 +45,7 @@ export default async function DestinationPage({ params }: Props) {
   return (
     <main className="max-w-3xl mx-auto p-6">
       <DestinationHeader title={destination.name} />
-      <Separator />
+      <Separator className="my-4" />
       <p>{destination.overview}</p>
       <TipsAccordion tips={destination.tips} />
       <RecommendationCards recommendations={destination.recommendations} />
