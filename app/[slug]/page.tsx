@@ -47,6 +47,7 @@ export default async function DestinationPage({ params }: Props) {
       <DestinationHeader title={destination.name} />
       <Separator className="my-4" />
       <Image
+        priority
         src={destination.overviewImage}
         alt={destination.name}
         width={2000}
