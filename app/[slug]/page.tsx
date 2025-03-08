@@ -1,4 +1,5 @@
 import { getAllDestinationMeta, getDestinationBySlug } from "@/lib/apis";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Separator } from "@/components/ui/separator";
 import { DestinationHeader } from "@/components/destination/DestinationHeader";
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: Props) {
   if (!destination) return { title: "Destination Not Found" };
 
   return {
-    title: `${destination.name} | Travel Blog`,
+    title: `${destination.name} | Nate's Travel Recs`,
     openGraph: {
       title: destination.name,
       // images: [{ url: destination.image }],
@@ -39,14 +40,20 @@ export default async function DestinationPage({ params }: Props) {
 
   const destination = await getDestinationBySlug(slug);
 
-  // Show 404 page if overview is not found
   if (!destination) return notFound();
 
   return (
     <main className="max-w-3xl mx-auto p-6">
       <DestinationHeader title={destination.name} />
       <Separator className="my-4" />
-      <p>{destination.overview}</p>
+      <Image
+        src={destination.overviewImage}
+        alt={destination.name}
+        width={2000}
+        height={1000}
+        className="w-full h-auto rounded-lg"
+      />
+      <p className="whitespace-pre-line mt-4">{destination.overviewText}</p>
       <TipsAccordion tips={destination.tips} />
       <RecommendationCards recommendations={destination.recommendations} />
       <ActivitiesAccordion activities={destination.activities} />

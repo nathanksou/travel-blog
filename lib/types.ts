@@ -24,7 +24,8 @@ export type Suburb = Location & {
 };
 
 export type Destination = DestinationMeta & {
-  overview: string;
+  overviewImage: string;
+  overviewText: string;
   tips: Tip[];
   recommendations: string[];
   activities: Activity[];

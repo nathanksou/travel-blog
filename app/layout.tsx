@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  // TODO: update domain
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://nathansou.com"),
   title: {
-    template: "%s | Travel Blog",
-    default: "Travel Blog",
+    template: "%s | Nate's Travel Recs",
+    default: "Nate's Travel Recs",
   },
   description: "Explore travel destinations around the world",
 };
