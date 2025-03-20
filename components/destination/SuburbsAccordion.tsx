@@ -1,4 +1,4 @@
-import { Suburb } from "@/lib/types";
+import { Destination } from "@/lib/types";
 import {
   Accordion,
   AccordionContent,
@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/accordion";
 
 type SuburbsAccordionProps = {
-  suburbs: Suburb[];
+  suburbs: Destination["suburbs"];
 };
 
 export const SuburbsAccordion = ({ suburbs = [] }: SuburbsAccordionProps) => (

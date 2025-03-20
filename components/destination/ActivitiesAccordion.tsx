@@ -1,4 +1,4 @@
-import { Activity } from "@/lib/types";
+import { Destination } from "@/lib/types";
 import {
   Accordion,
   AccordionContent,
@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/accordion";
 
 type ActivitiesAccordionProps = {
-  activities: Activity[];
+  activities: Destination["activities"];
 };
 
 export const ActivitiesAccordion = ({

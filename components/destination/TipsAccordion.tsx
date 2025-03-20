@@ -4,10 +4,10 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Tip } from "@/lib/types";
+import { Destination } from "@/lib/types";
 
 type TipsAccordionProps = {
-  tips: Tip[];
+  tips: Destination["tips"];
 };
 
 export const TipsAccordion = ({ tips = [] }: TipsAccordionProps) => (
