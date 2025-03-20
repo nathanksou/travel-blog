@@ -11,7 +11,7 @@ type ActivitiesAccordionProps = {
 };
 
 export const ActivitiesAccordion = ({
-  activities,
+  activities = [],
 }: ActivitiesAccordionProps) => (
   <div className="my-6">
     <h2 className="text-xl font-bold">Activities</h2>

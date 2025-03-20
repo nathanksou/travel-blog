@@ -10,7 +10,7 @@ type SuburbsAccordionProps = {
   suburbs: Suburb[];
 };
 
-export const SuburbsAccordion = ({ suburbs }: SuburbsAccordionProps) => (
+export const SuburbsAccordion = ({ suburbs = [] }: SuburbsAccordionProps) => (
   <div className="my-6">
     <h2 className="text-xl font-bold">Suburbs</h2>
     <Accordion type="multiple">

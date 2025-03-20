@@ -24,10 +24,10 @@ export type Suburb = Location & {
 };
 
 export type Destination = DestinationMeta & {
-  overviewImage: string;
+  overviewImage?: string;
   overviewText: string;
-  tips: Tip[];
-  recommendations: string[];
-  activities: Activity[];
-  suburbs: Suburb[];
+  tips?: Tip[];
+  recommendations?: string[];
+  activities?: Activity[];
+  suburbs?: Suburb[];
 };

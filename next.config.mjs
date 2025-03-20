@@ -4,11 +4,15 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
+        hostname: "zxuuzgoqdptulwnylwft.supabase.co", // my supabase storage bucket
+      },
+      {
+        protocol: "https",
         hostname: "files.vroomvroomvroom.com",
       },
       {
         protocol: "https",
-        hostname: "zxuuzgoqdptulwnylwft.supabase.co",
+        hostname: "www.visitnsw.com",
       },
     ],
   },

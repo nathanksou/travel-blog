@@ -6,7 +6,7 @@ type RecommendationCardsProps = {
 };
 
 export const RecommendationCards = ({
-  recommendations,
+  recommendations = [],
 }: RecommendationCardsProps) => (
   <div className="my-6">
     <h2 className="text-xl font-bold">Recommendations</h2>

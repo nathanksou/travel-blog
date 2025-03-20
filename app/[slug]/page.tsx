@@ -46,14 +46,16 @@ export default async function DestinationPage({ params }: Props) {
     <main className="max-w-3xl mx-auto p-6">
       <DestinationHeader title={destination.name} />
       <Separator className="my-4" />
-      <Image
-        priority
-        src={destination.overviewImage}
-        alt={destination.name}
-        width={2000}
-        height={1000}
-        className="w-full h-auto rounded-lg"
-      />
+      {destination.overviewImage && (
+        <Image
+          priority
+          src={destination.overviewImage}
+          alt={destination.name}
+          width={2000}
+          height={1000}
+          className="w-full h-auto rounded-lg"
+        />
+      )}
       <p className="whitespace-pre-line mt-4">{destination.overviewText}</p>
       <TipsAccordion tips={destination.tips} />
       <RecommendationCards recommendations={destination.recommendations} />

@@ -10,7 +10,7 @@ type TipsAccordionProps = {
   tips: Tip[];
 };
 
-export const TipsAccordion = ({ tips }: TipsAccordionProps) => (
+export const TipsAccordion = ({ tips = [] }: TipsAccordionProps) => (
   <div className="my-6">
     <h2 className="text-xl font-bold">Tips</h2>
     <Accordion
