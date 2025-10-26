@@ -1,0 +1,85 @@
+{
+  "slug": "singapore",
+  "name": "Singapore",
+  "overviewText": "Singapore is a great mini-getaway layover destination and offers much to explore beyond its numerous shops and restaurants! The weather is hot and humid so expect to get sweaty and dress appropriately. It's easy to get around via public transport or Grab if you're in a hurry. I suggest carrying a bottle of water or another drink (like tea, electrolytes, or soda) that you can easily buy at a convenience store to stay refreshed as you walk around. Additionally, plan your walking routes to include stops at the many malls with air conditioning along the way.\n\nA few of my friendly and easygoing local Singaporean friends would be more than happy to share their recommendations and show you around.",
+  "recommendations": [
+    {
+      "title": "Kok Sen Restaurant",
+      "description": "Beloved Cantonese gem on Keong Saik Road, famous for Big Prawn Hor Fun and Claypot Yong Tau Foo."
+    },
+    {
+      "title": "Tian Tian Hainanese Chicken Rice",
+      "description": "Iconic hawker stall at Maxwell Food Centre, praised by Anthony Bourdain for authentic Hainanese chicken rice."
+    },
+    {
+      "title": "SEA Aquarium",
+      "description": "One of the world's largest aquariums at Sentosa with 100,000+ marine animals across 10 diverse zones."
+    },
+    {
+      "title": "Marina Bay Sands & Gardens by the Bay",
+      "description": "Experience evening light shows 'Spectra' and Garden Rhapsody at Supertrees, plus explore Cloud Forest and Flower Dome."
+    }
+  ],
+  "activities": [
+    {
+      "name": "Top Dining Recommendations",
+      "highlights": [
+        "Kok Sen Restaurant - Beloved Cantonese gem on Keong Saik Road, famous for Big Prawn Hor Fun and Claypot Yong Tau Foo",
+        "Tian Tian Hainanese Chicken Rice - Iconic hawker stall at Maxwell Food Centre, praised by Anthony Bourdain"
+      ]
+    },
+    {
+      "name": "Museums & Attractions",
+      "highlights": [
+        "SEA Aquarium at Sentosa - One of world's largest aquariums with 100,000+ marine animals across 10 zones",
+        "ArtScience Museum - Innovative exhibitions merging art, science, and technology, featuring TeamLab Tokyo collaborations",
+        "Marina Bay Sands - Evening light show 'Spectra', shopping, Art and Science Museum, and Merlion Park nearby",
+        "Gardens by the Bay - Garden Rhapsody light show at Supertrees, Floral Fantasy, Cloud Forest, and Flower Dome",
+        "The Jewel at Changi Airport - World's tallest indoor waterfall, lush gardens, shopping and dining"
+      ]
+    },
+    {
+      "name": "Cultural Districts",
+      "highlights": [
+        "Sentosa Island - Beaches, Universal Studios, SEA Aquarium, and Adventure Cove Waterpark",
+        "Chinatown - Traditional shophouses, temples, hawker stalls, and Michelin-starred restaurants",
+        "Kampong Glam - Sultan Mosque, trendy cafes, boutiques, colorful street art",
+        "Haji Lane - Independent boutiques, quirky shops, vibrant murals, and hip cafes",
+        "Little India - Colorful markets, temples, traditional eateries",
+        "Clarke Quay - Riverside dining, entertainment, and nightlife"
+      ]
+    },
+    {
+      "name": "Shopping & Entertainment",
+      "highlights": [
+        "Orchard Street - Premier shopping with high-end boutiques and flagship stores",
+        "Marina Square - Wide range of retail, dining, and entertainment in Marina Bay",
+        "Merlion Park - Iconic Merlion statue with waterfront views"
+      ]
+    },
+    {
+      "name": "Cultural Sites",
+      "highlights": [
+        "Singapore Botanic Gardens - UNESCO World Heritage site with National Orchid Garden",
+        "SAM Singapore Art Museum - Contemporary Southeast Asian art",
+        "Red Dot Design Museum - Award-winning design products and exhibitions",
+        "St. Andrew's Cathedral - Oldest Anglican cathedral with neo-Gothic architecture",
+        "Esplanade - Theatres on the Bay - Premier performing arts center"
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "heading": "Weather & Comfort",
+      "details": "Singapore is hot and humid year-round. Dress appropriately in light, breathable clothing and expect to get sweaty. Carry a bottle of water or another refreshing drink that you can easily buy at convenience stores. Plan your walking routes to include stops at malls with air conditioning along the way."
+    },
+    {
+      "heading": "Transportation",
+      "details": "It's easy to get around via public transport (MRT trains and buses) or Grab (ride-hailing app) if you're in a hurry. Public transport is efficient and affordable."
+    },
+    {
+      "heading": "Local Connections",
+      "details": "Friendly and easygoing local Singaporean friends are available to share their recommendations and show you around for a more authentic experience."
+    }
+  ]
+}

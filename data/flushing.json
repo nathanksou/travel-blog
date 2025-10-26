@@ -1,0 +1,175 @@
+{
+  "slug": "flushing",
+  "name": "Flushing, Queens",
+  "overviewText": "Welcome to Flushing, Queens—New York City's most authentic Asian food destination!\n\nWander through bustling streets filled with the aroma of freshly steamed soup dumplings, sizzling jian bing, and crispy shen jian bao. This vibrant neighborhood serves as the cultural and culinary heart of NYC's Chinese and Asian communities, offering everything from hole-in-the-wall eateries to modern shopping malls.\n\nSample street food legends at every corner, from the famous corn croissant egg tarts to perfectly griddled rou jia mo. Browse through Tangram Mall for a taste of contemporary Asian retail, or dive into traditional tea houses and bakeries that have perfected their craft over generations.\n\nWhether you're chasing the best XLB in the city, hunting for the perfect gua bao, or exploring the endless hotpot and BBQ options, Flushing delivers an unparalleled culinary adventure without leaving New York City.",
+  "recommendations": [
+    {
+      "title": "1 Golden Pancake",
+      "description": "Start your day with their legendary corn croissant egg tart—a perfect fusion of East meets West."
+    },
+    {
+      "title": "Shanghai You Garden",
+      "description": "Famous for soup dumplings (XLB) at $8.50 and incredible duck buns at $2.50. A must-visit spot."
+    },
+    {
+      "title": "Pan Bao 66",
+      "description": "Crispy-bottomed shen jian bao that rivals the best in Shanghai. Get there early before they sell out."
+    },
+    {
+      "title": "Corner 28",
+      "description": "Authentic Chinese regional cuisine with generous portions and bold flavors."
+    }
+  ],
+  "suburbs": [
+    {
+      "name": "Must-Try Specialties",
+      "blurb": "The iconic dishes that put Flushing on the food map.",
+      "locations": [
+        {
+          "name": "1 Golden Pancake",
+          "blurb": "Start your day with their legendary corn croissant egg tart—a perfect fusion of East meets West."
+        },
+        {
+          "name": "Fu Yuan",
+          "blurb": "Authentic curry fish balls and silky cheung fun. A taste of Hong Kong street food in Queens."
+        },
+        {
+          "name": "Xie Bao",
+          "blurb": "Don't miss their crab roe over rice or noodles—rich, decadent, and absolutely worth the visit."
+        },
+        {
+          "name": "Pan Bao 66",
+          "blurb": "Crispy-bottomed shen jian bao that rivals the best in Shanghai. Get there early before they sell out."
+        },
+        {
+          "name": "Liu Liu Sheng Jian Wang",
+          "blurb": "Another excellent spot for shen jian bao with perfectly caramelized bottoms and juicy filling."
+        },
+        {
+          "name": "Eight Jane",
+          "blurb": "The go-to for authentic jian bing—crispy, savory, and endlessly customizable."
+        },
+        {
+          "name": "Gao Xiao Pa",
+          "blurb": "Tender, flavorful rou jia mo (Chinese hamburger) that's worth the trip alone."
+        }
+      ]
+    },
+    {
+      "name": "Bakeries & Desserts",
+      "blurb": "Sweet treats and savory buns to satisfy every craving.",
+      "locations": [
+        {
+          "name": "Taning Lemon Tea",
+          "blurb": "Refreshing lemon tea with the perfect balance of sweet and tart. A local favorite."
+        },
+        {
+          "name": "Mr. Tu's Bakery",
+          "blurb": "Fresh-baked goods with Asian twists on classic pastries."
+        },
+        {
+          "name": "Shanghai You Garden",
+          "blurb": "Famous for XLB/soup dumplings at $8.50 and incredible duck buns at $2.50. Available at their restaurant or takeaway window."
+        },
+        {
+          "name": "Lee & Bai Chinese Buns Shop",
+          "blurb": "Chengdu braised pork buns that pack a spicy punch with deep, complex flavors."
+        },
+        {
+          "name": "Fay Da Bakery",
+          "blurb": "Their taro puff is legendary—flaky layers encasing sweet, creamy taro filling."
+        },
+        {
+          "name": "Taipei Hong",
+          "blurb": "Pillowy gua bao with tender braised pork belly. Taiwan's iconic street food done right."
+        }
+      ]
+    },
+    {
+      "name": "Restaurants",
+      "blurb": "From casual eats to upscale dining experiences.",
+      "locations": [
+        {
+          "name": "Corner 28",
+          "blurb": "Outstanding char siu over rice. The BBQ pork is glazed to perfection with a beautiful char."
+        },
+        {
+          "name": "Ming Wei",
+          "blurb": "Another excellent spot for jian bing guo zi with authentic Beijing-style preparation."
+        },
+        {
+          "name": "He Nan Feng Wei",
+          "blurb": "Henan province specialties that showcase lesser-known regional Chinese cuisine."
+        },
+        {
+          "name": "Siam Thai",
+          "blurb": "Authentic Thai flavors in the heart of Flushing's diverse food scene."
+        },
+        {
+          "name": "Tai Er Sichuan Cuisine",
+          "blurb": "Bold, numbing Sichuan dishes that bring the heat and complexity."
+        },
+        {
+          "name": "Alley 41",
+          "blurb": "Modern Asian fusion with creative cocktails and upscale vibes."
+        },
+        {
+          "name": "Mikiya Wagyu Shabu House",
+          "blurb": "Premium wagyu shabu-shabu experience with high-quality cuts and broths."
+        },
+        {
+          "name": "Xu Chu",
+          "blurb": "Elevated Chinese dining with refined dishes and elegant presentation."
+        },
+        {
+          "name": "Mimisa",
+          "blurb": "Korean cuisine with a focus on fresh ingredients and traditional preparation."
+        },
+        {
+          "name": "Haidilao Hotpot",
+          "blurb": "The famous Chinese chain known for exceptional service and quality hotpot. Perfect for groups."
+        },
+        {
+          "name": "Fish With You",
+          "blurb": "Seafood-focused restaurant with live tanks and fresh catches."
+        },
+        {
+          "name": "Sing Choi Kee",
+          "blurb": "Hong Kong-style café serving comfort food classics."
+        },
+        {
+          "name": "Sunday's Best",
+          "blurb": "Modern Chinese-American dining with creative takes on traditional dishes."
+        }
+      ]
+    },
+    {
+      "name": "Shopping",
+      "blurb": "Retail and entertainment destinations.",
+      "locations": [
+        {
+          "name": "Tangram Mall",
+          "blurb": "Modern Asian-centric shopping mall with boutiques, food court, and entertainment options. A one-stop destination for shopping and dining."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "heading": "Bring Cash",
+      "details": "Many of the best hole-in-the-wall spots and food stalls in Flushing are cash-only. While larger restaurants accept cards, you'll want to have cash on hand to fully explore the neighborhood's street food scene and smaller establishments. ATMs are readily available throughout the area."
+    },
+    {
+      "heading": "Peak Hours",
+      "details": "Flushing gets extremely busy during lunch (12-2pm) and dinner (6-8pm), especially on weekends. Popular spots like Shanghai You Garden and Pan Bao 66 often sell out or have long waits. Visit during off-peak hours for a more relaxed experience, or embrace the hustle and bustle as part of the authentic Flushing experience."
+    },
+    {
+      "heading": "Language",
+      "details": "Many establishments primarily speak Mandarin or Cantonese. Don't be intimidated—pointing at menu items or photos works well, and the food speaks for itself. Some restaurants have English menus or picture menus available upon request."
+    },
+    {
+      "heading": "Getting There",
+      "details": "Take the 7 train to Flushing-Main Street station. The neighborhood is very walkable, with most restaurants and shops concentrated within a few blocks of the station. The area can get crowded on weekends, so comfortable walking shoes are recommended."
+    }
+  ]
+}

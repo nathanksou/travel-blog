@@ -1,0 +1,74 @@
+{
+  "slug": "sf-south-bay",
+  "name": "SF + South Bay",
+  "overviewText": "The San Francisco Bay Area offers an incredible mix of urban energy, natural beauty, and world-class cuisine.\n\nFrom the iconic Golden Gate Bridge to the innovative spirit of Silicon Valley, this region seamlessly blends cutting-edge technology with rich cultural heritage. Explore diverse neighborhoods, each with its own unique character—from the historic streets of the Mission District to the trendy boutiques of Hayes Valley.\n\nFood lovers will delight in the Bay Area's culinary scene, featuring everything from Michelin-starred restaurants to authentic ethnic eateries. Catch a Giants game at Oracle Park or cheer on the Warriors at Chase Center for an unforgettable sports experience.\n\nBeyond the city, adventure awaits at Half Moon Bay's stunning coastline, Lake Tahoe's pristine alpine beauty, and Yosemite's majestic granite cliffs and waterfalls.",
+  "recommendations": [
+    {
+      "title": "SOHN",
+      "description": "Must-visit restaurant in San Francisco offering exceptional dining experiences."
+    },
+    {
+      "title": "Saint Frank's Coffee",
+      "description": "Specialty coffee roaster with exceptional hand-crafted brews and cozy atmosphere."
+    },
+    {
+      "title": "SF Giants Game @ Oracle Park",
+      "description": "Catch a baseball game at the beautiful waterfront Oracle Park with stunning bay views."
+    },
+    {
+      "title": "Half Moon Bay",
+      "description": "Scenic coastal town with beautiful beaches, fresh seafood, and charming downtown area perfect for day trips."
+    }
+  ],
+  "activities": [
+    {
+      "name": "Sports & Entertainment",
+      "highlights": [
+        "SF Giants Game @ Oracle Park",
+        "Golden State Warriors Game @ Chase Center"
+      ]
+    },
+    {
+      "name": "Day Trips",
+      "highlights": [
+        "Half Moon Bay - Coastal town with beautiful beaches",
+        "Lake Tahoe - Alpine lake perfect for hiking and water activities",
+        "Yosemite - Iconic national park with stunning natural beauty"
+      ]
+    }
+  ],
+  "suburbs": [
+    {
+      "name": "San Francisco",
+      "blurb": "Diverse dining and cultural experiences throughout the city.",
+      "locations": [
+        {
+          "name": "SOHN",
+          "blurb": "Must-visit restaurant in San Francisco."
+        },
+        {
+          "name": "Marcella's Lasagneria",
+          "blurb": "Authentic Italian lasagna specialist."
+        },
+        {
+          "name": "Saint Frank's Coffee",
+          "blurb": "Specialty coffee roaster with exceptional brews."
+        },
+        {
+          "name": "Hon's Won Tun Noodle",
+          "blurb": "Classic Cantonese wontons and noodles."
+        }
+      ]
+    },
+    {
+      "name": "Dogpatch",
+      "blurb": "Hip neighborhood with climbing and dining.",
+      "locations": [
+        {
+          "name": "Dogpatch Boulders",
+          "blurb": "Indoor bouldering gym for climbing enthusiasts."
+        }
+      ]
+    }
+  ]
+}

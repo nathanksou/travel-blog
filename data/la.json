@@ -1,0 +1,62 @@
+{
+  "slug": "la",
+  "name": "LA",
+  "overviewText": "Los Angeles is a sprawling Southern California city and the heart of the nation's film and television industry. From the glitz and glamour of Hollywood to the laid-back beach vibes of the coast, LA offers an incredible mix of culture, entertainment, and diverse cuisine.\n\nExplore world-famous theme parks like Universal Studios and Disneyland, soak up the sun at Manhattan, Hermosa, and Redondo Beach, or dive into the vibrant food scene of Koreatown. With its perfect weather year-round and endless attractions, LA is a destination that truly has something for everyone.",
+  "suburbs": [
+    {
+      "name": "Koreatown",
+      "blurb": "Vibrant Korean neighborhood with authentic cuisine and nightlife.",
+      "locations": [
+        {
+          "name": "Sun Nong Dong",
+          "blurb": "Korean restaurant known for traditional dishes."
+        },
+        {
+          "name": "Popcorn Chicken Place",
+          "blurb": "Popular spot for delicious popcorn chicken."
+        },
+        {
+          "name": "Tacos la 26",
+          "blurb": "Late-night taco stand serving authentic Mexican tacos."
+        }
+      ]
+    },
+    {
+      "name": "Beach Cities",
+      "blurb": "Laid-back coastal communities with beautiful beaches.",
+      "locations": [
+        {
+          "name": "Manhattan Beach",
+          "blurb": "Upscale beach town with a vibrant pier and excellent dining."
+        },
+        {
+          "name": "Hermosa Beach",
+          "blurb": "Relaxed beach atmosphere perfect for sunbathing and beach volleyball."
+        },
+        {
+          "name": "Redondo Beach",
+          "blurb": "Family-friendly beach with a pier, restaurants, and shops."
+        }
+      ]
+    },
+    {
+      "name": "Shopping",
+      "blurb": "Premier shopping destinations.",
+      "locations": [
+        {
+          "name": "Century City Mall",
+          "blurb": "Upscale outdoor shopping center with luxury brands and dining."
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "name": "Theme Parks",
+      "highlights": [
+        "Universal Studio - Experience movie magic and thrilling rides",
+        "Disneyland - The happiest place on Earth with classic attractions"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "sydney",
+    "name": "Sydney",
+    "country": "Australia",
+    "description": "Australia's harbor city featuring iconic landmarks and stunning beaches"
+  },
+  {
+    "slug": "jervis-bay",
+    "name": "Jervis Bay",
+    "country": "Australia",
+    "description": "Pristine beaches with crystal-clear waters and abundant marine life"
+  },
+  {
+    "slug": "melbourne",
+    "name": "Melbourne",
+    "country": "Australia",
+    "description": "Australia's cultural capital known for coffee, art, and hidden laneways"
+  },
+  {
+    "slug": "cairns-gold-coast",
+    "name": "Cairns & Gold Coast",
+    "country": "Australia",
+    "description": "Tropical paradise with the Great Barrier Reef and stunning beaches"
+  },
+  {
+    "slug": "singapore",
+    "name": "Singapore",
+    "country": "Singapore",
+    "description": "A vibrant city-state blending futuristic architecture with rich cultural heritage"
+  },
+  {
+    "slug": "bali",
+    "name": "Bali",
+    "country": "Indonesia",
+    "description": "Island paradise with stunning beaches, ancient temples, and lush landscapes"
+  },
+  {
+    "slug": "hong-kong",
+    "name": "Hong Kong",
+    "country": "Hong Kong",
+    "description": "A dynamic fusion of East and West with stunning skyline and vibrant culture"
+  },
+  {
+    "slug": "taiwan",
+    "name": "Taiwan",
+    "country": "Taiwan",
+    "description": "A beautiful island with night markets, temples, and incredible street food"
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "country": "Vietnam",
+    "description": "Rich history, delicious cuisine, and breathtaking natural landscapes"
+  },
+  {
+    "slug": "new-zealand",
+    "name": "New Zealand",
+    "country": "New Zealand",
+    "description": "Stunning natural beauty from mountains to fjords and pristine beaches"
+  },
+  {
+    "slug": "new-york-city",
+    "name": "New York City",
+    "country": "United States",
+    "description": "The city that never sleeps with iconic landmarks and world-class culture"
+  },
+  {
+    "slug": "flushing",
+    "name": "Flushing",
+    "country": "United States",
+    "description": "Vibrant neighborhood in Queens with authentic Asian cuisine and culture"
+  },
+  {
+    "slug": "la",
+    "name": "Los Angeles",
+    "country": "United States",
+    "description": "City of entertainment with beaches, celebrities, and endless sunshine"
+  },
+  {
+    "slug": "sf-south-bay",
+    "name": "San Francisco & South Bay",
+    "country": "United States",
+    "description": "Tech hub and cultural center with iconic landmarks and diverse neighborhoods"
+  }
+]

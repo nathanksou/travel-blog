@@ -1,0 +1,265 @@
+{
+  "slug": "vietnam",
+  "name": "Vietnam",
+  "overviewText": "Vietnam is a captivating blend of ancient traditions and modern vibrancy, offering unforgettable experiences from north to south.\n\nExplore the lantern-lit streets of Hoi An's Old Town, where custom tailoring and handcrafted jewelry await. Journey to the mystical Ba Na Hills with its iconic Golden Bridge held by giant stone hands, or venture through the underground Cu Chi Tunnels that tell stories of Vietnam's past.\n\nSavor authentic flavors from steaming bowls of pho in Saigon to the beloved bun cha from Hanoi. Discover cozy cafes serving iconic egg coffee, trendy apartment shops, and Michelin-recognized local eateries. Visit serene pagodas with towering Buddha statues, marvel at French colonial architecture, and witness the spectacular fire-breathing Dragon Bridge performance.\n\nWith its rich culture, delicious cuisine, and warm hospitality, Vietnam offers the perfect blend of adventure, relaxation, and cultural immersion.",
+  "suburbs": [
+    {
+      "name": "Hoi An",
+      "blurb": "A charming ancient town famous for lantern-lit streets, custom tailoring, and rich cultural experiences.",
+      "locations": [
+        {
+          "name": "Hoi An Memories",
+          "blurb": "A theatrical show that brings the history and culture of Hoi An to life through music and dance."
+        },
+        {
+          "name": "Ba Na Hills",
+          "blurb": "A mountain resort with carnival rides, stunning views, and the iconic Golden Bridge supported by giant stone hands.",
+          "locations": [
+            {
+              "name": "Carnival Rides",
+              "blurb": "Fun for all ages with exciting carnival rides set in the mountain landscapes."
+            },
+            {
+              "name": "Alpine Ride in Fantasy Land",
+              "blurb": "Glide through the hills in this thrilling alpine ride experience."
+            },
+            {
+              "name": "Popmart Castle",
+              "blurb": "A whimsical spot for shopping, food, and fun with a magical castle aesthetic."
+            },
+            {
+              "name": "4 Seasons Buffet",
+              "blurb": "A varied buffet experience with seasonal foods and diverse cuisine."
+            },
+            {
+              "name": "Buddha Statue",
+              "blurb": "A towering Buddha statue with breathtaking views of the hills and valleys below."
+            },
+            {
+              "name": "Golden Bridge",
+              "blurb": "Walk this stunning bridge supported by giant stone hands, a symbol of Ba Na Hills."
+            }
+          ]
+        },
+        {
+          "name": "45 Thu Tailoring",
+          "blurb": "Get expertly tailored clothing with a wide selection of fabrics, perfect for a custom fit and style unique to Hoi An."
+        },
+        {
+          "name": "Jimmy's Jewelry - Custom Ring",
+          "blurb": "Craft a unique piece of jewelry as a memento, with designs tailored to your style at Jimmy's."
+        },
+        {
+          "name": "Com Linh - Tapas",
+          "blurb": "Enjoy a Vietnamese twist on tapas, with small plates and flavors that are both familiar and unique."
+        },
+        {
+          "name": "Hygge Coffee",
+          "blurb": "A cozy café inspired by the Danish concept of 'hygge,' offering a calm space and quality brews."
+        },
+        {
+          "name": "Explore/Walk Around Old Town",
+          "blurb": "Stroll through the charming old streets filled with lantern-lit alleys, historic architecture, and vibrant shops."
+        },
+        {
+          "name": "Japanese Bridge",
+          "blurb": "This iconic bridge is an architectural marvel, blending Japanese design with Hoi An's local charm."
+        },
+        {
+          "name": "Lantern Market",
+          "blurb": "Visit at night for a sea of colorful lanterns and handcrafted souvenirs that light up the market."
+        },
+        {
+          "name": "Old River Restaurant Bar",
+          "blurb": "Relax with riverside views and enjoy a mix of Vietnamese and international cuisine."
+        },
+        {
+          "name": "Miss Ly Cafe",
+          "blurb": "A cozy spot for traditional Hoi An food in a homey atmosphere."
+        },
+        {
+          "name": "dudu cafe",
+          "blurb": "Chic and modern, offering a relaxing place to unwind with coffee and snacks."
+        },
+        {
+          "name": "Lantern Boats at Night",
+          "blurb": "A magical experience, floating on the river in a lantern-lit boat under the night sky."
+        }
+      ]
+    },
+    {
+      "name": "Da Nang & Surroundings",
+      "blurb": "A coastal city with stunning natural attractions, serene pagodas, and vibrant markets.",
+      "locations": [
+        {
+          "name": "Monkey Mountain",
+          "blurb": "A scenic mountain area with pagodas and ocean views.",
+          "locations": [
+            {
+              "name": "Linh Ung Pagoda",
+              "blurb": "Home to a serene pagoda overlooking the ocean and lush mountains."
+            },
+            {
+              "name": "Lady Buddha Statue",
+              "blurb": "Towering and majestic, this statue is a peaceful icon along the Da Nang coast."
+            }
+          ]
+        },
+        {
+          "name": "Marble Mountain",
+          "blurb": "A mystical mountain of caves and temples, with an otherworldly journey from hell to heaven."
+        },
+        {
+          "name": "Serene Spa & Massage - Hoi An Branch",
+          "blurb": "A tranquil spa offering traditional Vietnamese massage and holistic treatments."
+        },
+        {
+          "name": "Da Nang Cathedral",
+          "blurb": "A charming pink cathedral with French architectural influences, popular for its unique design."
+        },
+        {
+          "name": "Son Tra Night Market",
+          "blurb": "A bustling market full of street food, local goods, and lively performances."
+        },
+        {
+          "name": "Moc Quan Seafood Restaurant",
+          "blurb": "Sample fresh seafood prepared with local flavors in a laid-back setting."
+        },
+        {
+          "name": "Dragon Bridge Performance",
+          "blurb": "A mesmerizing show where the bridge breathes fire and water, a spectacle you don't want to miss."
+        },
+        {
+          "name": "Luxury Healthy Spa & Massage",
+          "blurb": "Indulge in wellness with a focus on health and relaxation."
+        },
+        {
+          "name": "GOLO Coffee & AP",
+          "blurb": "Contemporary café with a relaxed vibe, perfect for a refreshing drink and downtime."
+        },
+        {
+          "name": "Dng.coffee",
+          "blurb": "Enjoy quality coffee in a minimalist setting, a gem for coffee lovers."
+        }
+      ]
+    },
+    {
+      "name": "Saigon",
+      "blurb": "Vietnam's bustling southern metropolis with world-class coffee culture, street food, and rich history.",
+      "locations": [
+        {
+          "name": "Pho Vietnam",
+          "blurb": "A classic spot for steaming bowls of pho, offering authentic flavors of Vietnam's most beloved soup."
+        },
+        {
+          "name": "Cafe Linh",
+          "blurb": "Traditional yet stylish, this café is known for its comforting coffee and cozy ambiance."
+        },
+        {
+          "name": "The Workshop Coffee",
+          "blurb": "A vibrant café with top-notch brews and a bright, creative space."
+        },
+        {
+          "name": "Cafe Apartments",
+          "blurb": "Unique shopping experience inside a former apartment building, now home to trendy cafes and shops."
+        },
+        {
+          "name": "% Arabica",
+          "blurb": "Known for its iconic coffee, this Japanese café delivers a refined coffee experience."
+        },
+        {
+          "name": "Goodday Coffee",
+          "blurb": "Cozy with a creative interior, a favorite spot for locals and travelers alike."
+        },
+        {
+          "name": "New Playground",
+          "blurb": "A hip shopping area with trendy local brands in a modern, indoor market setting."
+        },
+        {
+          "name": "Banh Mi Hyun Hoa",
+          "blurb": "Renowned for some of the best banh mi in Saigon, with crispy bread and delicious fillings."
+        },
+        {
+          "name": "The Gangs Central",
+          "blurb": "A vibrant dining spot serving a fusion of Asian flavors in a lively setting."
+        },
+        {
+          "name": "AM.PM Cafe",
+          "blurb": "A chill café with stylish decor and refreshing drinks, perfect for any time of day."
+        },
+        {
+          "name": "Pho Bom",
+          "blurb": "Dive into rich pho flavors at this bustling spot known for its quality ingredients."
+        },
+        {
+          "name": "O Tinh House",
+          "blurb": "Homey atmosphere with Vietnamese comfort food that feels like a home-cooked meal."
+        },
+        {
+          "name": "Cafe Mon Ami",
+          "blurb": "Quaint café with a cozy French-inspired design and delectable pastries."
+        },
+        {
+          "name": "Independence Palace",
+          "blurb": "A historical landmark offering insight into Vietnam's political history and architectural beauty."
+        },
+        {
+          "name": "Saigon Central Post Office",
+          "blurb": "Classic French colonial architecture and a vibrant part of Saigon's heritage."
+        },
+        {
+          "name": "Book Street",
+          "blurb": "A charming pedestrian street lined with bookstores and cafés, perfect for book lovers."
+        },
+        {
+          "name": "Sai Gon Kitchen Vina",
+          "blurb": "Tasty local cuisine served with a focus on quality and freshness in a friendly atmosphere."
+        },
+        {
+          "name": "Apartment Shops (Bleu Monkey Cafe)",
+          "blurb": "Quirky shops and eateries in a transformed apartment building."
+        },
+        {
+          "name": "Bep Me In (Michelin Guide)",
+          "blurb": "Authentic Vietnamese dishes served in a warm, rustic setting with Michelin guide recognition."
+        },
+        {
+          "name": "Little Hanoi Egg Coffee",
+          "blurb": "A Saigon spot for the iconic egg coffee, creamy and rich in flavor."
+        },
+        {
+          "name": "96b Concept Cafe",
+          "blurb": "A café with a unique vibe, blending art and coffee culture in one space."
+        },
+        {
+          "name": "Mon Moi (Hotpot and Spareribs)",
+          "blurb": "Comfort food with delicious hotpot and spareribs, perfect for a hearty meal."
+        },
+        {
+          "name": "Cu Chi Tunnels Tour",
+          "blurb": "Explore the underground tunnels used during the Vietnam War, rich in history and adventure."
+        },
+        {
+          "name": "La.Zero Saigon - Cafe and Art Space",
+          "blurb": "A café and art gallery offering creative ambiance and delicious drinks."
+        },
+        {
+          "name": "Cong Cafe",
+          "blurb": "A retro-style café chain with quirky decor, inspired by Vietnamese history."
+        },
+        {
+          "name": "Hum Spa",
+          "blurb": "A peaceful retreat offering therapeutic massages and wellness treatments."
+        },
+        {
+          "name": "Quan Ngon Bun Cha",
+          "blurb": "Savor the authentic taste of Hanoi's beloved bun cha, with grilled pork, fresh herbs, and vermicelli in a welcoming, lively setting."
+        },
+        {
+          "name": "Beanthere Cafe",
+          "blurb": "A cozy café known for its aromatic coffee and relaxed ambiance, perfect for a quiet break or a productive work session."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "slug": "jervis-bay",
+  "name": "Jervis Bay",
+  "overviewText": "Jervis Bay is a breathtaking coastal gem, renowned for its beautiful beaches, vibrant marine life, and endless outdoor adventures. Booderee National Park is a must-visit for nature lovers, offering a range of trails, picnic areas, and stunning views. Pack a bag for a weekend getaway; camp at Green Patch, snorkel in the calm waters of Murrays Beach, and explore scenic trails like Gosangs Tunnel.",
+  "overviewImage": "https://www.discoveryholidayparks.com.au/getmedia/205933c0-c1d4-44b7-adaa-0fed2fb2e6af/jervis-bay-desktop.jpg?width=1200&height=400&ext=.jpg",
+  "recommendations": [
+    {
+      "title": "Gosangs Tunnel & Abrahams Bosom Reserve",
+      "description": "Scenic walking trail through a historic tunnel leading to a stunning secluded beach reserve."
+    },
+    {
+      "title": "Woebegone Freediving",
+      "description": "Professional freediving experiences in Jervis Bay's crystal-clear waters with vibrant marine life."
+    },
+    {
+      "title": "The Grotto Walk",
+      "description": "Short coastal walk leading to a picturesque rock grotto with ocean views."
+    },
+    {
+      "title": "Earnest Arthur",
+      "description": "Charming café in Huskisson perfect for relaxing after a day of exploring the bay."
+    }
+  ],
+  "activities": [
+    {
+      "name": "Snorkeling!",
+      "highlights": [
+        "Calm, clear waters with vibrant marine life.",
+        "Ideal for a quiet day of swimming and snorkeling."
+      ]
+    },
+    {
+      "name": "Exploring Huskisson",
+      "highlights": [
+        "Charming coastal town with a variety of dining options.",
+        "Perfect for relaxing after a day of exploring."
+      ]
+    },
+    {
+      "name": "Camping at Green Patch",
+      "highlights": [
+        "Enjoy the natural beauty and tranquility of Jervis Bay.",
+        "Great for outdoor enthusiasts."
+      ]
+    },
+    {
+      "name": "Wildlife Spotting at Cave Beach",
+      "highlights": [
+        "Look out for wallabies in the area.",
+        "Picturesque beach with a rugged charm."
+      ]
+    },
+    {
+      "name": "Kiyama Blow Hole",
+      "highlights": [
+        "A natural blowhole that creates spectacular water spouts."
+      ]
+    },
+    {
+      "name": "Blenheim Beach",
+      "highlights": ["A beautiful beach ideal for swimming and relaxing."]
+    },
+    {
+      "name": "Greenfield Beach",
+      "highlights": ["A family-friendly beach with picnic areas."]
+    },
+    {
+      "name": "Jervis Bay / Booderee National Park",
+      "highlights": ["Explore stunning landscapes and diverse wildlife."]
+    },
+    {
+      "name": "Murrays Beach",
+      "highlights": [
+        "Top spot for snorkeling enthusiasts.",
+        "Crystal clear water and impressive marine diversity."
+      ]
+    },
+    {
+      "name": "Cave Beach",
+      "highlights": [
+        "Look out for wallabies in the area.",
+        "Picturesque beach with a rugged charm."
+      ]
+    },
+    {
+      "name": "Gosangs Tunnel",
+      "highlights": ["A unique rock formation and tunnel to explore."]
+    },
+    {
+      "name": "Abrahams Bosom Reserve",
+      "highlights": ["A scenic reserve with walking trails and views."]
+    },
+    {
+      "name": "The Grotto Walk",
+      "highlights": ["A scenic walk with stunning coastal views."]
+    },
+    {
+      "name": "World Famous Fish and Chips",
+      "highlights": ["Great spot for some fried food by the beach."]
+    },
+    {
+      "name": "Taj Indian Restaurant",
+      "highlights": ["Indian restaurant known for its egg curry."]
+    },
+    {
+      "name": "Nana Thai Restaurant",
+      "highlights": ["Offers a variety of Thai dishes."]
+    },
+    {
+      "name": "Earnest Arthur",
+      "highlights": ["A local favorite for coffee, pies and pastries."]
+    }
+  ],
+  "tips": [
+    {
+      "heading": "Transportation",
+      "details": "Rent a car to explore Jervis Bay, as public transport options are limited."
+    },
+    {
+      "heading": "Camping",
+      "details": "Consider camping at Green Patch for a unique experience in nature."
+    },
+    {
+      "heading": "Snorkeling Gear",
+      "details": "Bring your snorkeling gear or rent it locally to explore the underwater beauty."
+    },
+    {
+      "heading": "Wildlife",
+      "details": "Keep an eye out for wallabies and other wildlife, especially at Cave Beach."
+    },
+    {
+      "heading": "Dining",
+      "details": "Don't miss out on local dining options in Huskisson, including seafood and international cuisine."
+    }
+  ]
+}

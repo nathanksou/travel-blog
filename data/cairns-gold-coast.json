@@ -1,0 +1,85 @@
+{
+  "slug": "cairns-gold-coast",
+  "name": "Cairns and Gold Coast",
+  "overviewText": "Cairns is the gateway to the Great Barrier Reef and the Daintree Rainforest, offering incredible opportunities for snorkeling, diving, and exploring one of the world's most spectacular natural wonders. The tropical climate and laid-back vibe make it perfect for adventure seekers and nature lovers alike.\n\nGold Coast is a top tropical destination in Australia, perfect for unwinding, enjoying beach time, and experiencing vibrant nightlife. The city is renowned for its amusement parks, including Dreamworld and Movieworld, as well as wildlife attractions. Gold Coast is ideal for surfing, relaxing, and partying, offering a lively atmosphere with excellent beaches, dining, and entertainment options.",
+  "activities": [
+    {
+      "name": "Great Barrier Reef",
+      "highlights": [
+        "The trip takes about 2 hours by boat each way",
+        "Bring two motion sickness pills—one for the journey out and one for the return",
+        "Complete your dive certification before arriving if you want to dive",
+        "The reef is very much alive with incredible marine life, possibly even sharks",
+        "Colors can appear darker unless the light hits them just right",
+        "Stay safe, enjoy, and respect the reef"
+      ]
+    },
+    {
+      "name": "Cairns Esplanade Lagoon",
+      "highlights": [
+        "Public swimming pool with beautiful ocean views",
+        "Perfect for relaxing in Cairns' main tourist area"
+      ]
+    },
+    {
+      "name": "Gold Coast Beaches",
+      "highlights": [
+        "Surfer's Paradise - heart of Gold Coast's beach scene with lively atmosphere",
+        "Broadbeach - trendy area with relaxed vibe and less crowded beach",
+        "Excellent surfing conditions",
+        "Great for beach time and water activities"
+      ]
+    },
+    {
+      "name": "Amusement Parks",
+      "highlights": [
+        "Movieworld - movie-themed rides, attractions, and shows",
+        "Dreamworld - expansive park with thrilling rides, animal encounters, and family-friendly attractions"
+      ]
+    }
+  ],
+  "suburbs": [
+    {
+      "name": "Cairns",
+      "blurb": "Gateway to the Great Barrier Reef and rainforest adventures",
+      "locations": [
+        {
+          "name": "Prawn Stars",
+          "blurb": "Seafood lover's paradise with an abundance of fresh seafood. Pair with a cold drink. Booking ahead is advisable."
+        },
+        {
+          "name": "Salt House",
+          "blurb": "Excellent small plates and shareable dishes like mac and cheese, kingfish sashimi, and tiger prawns. Mains are just okay."
+        }
+      ]
+    },
+    {
+      "name": "Gold Coast",
+      "blurb": "Tropical beach destination with vibrant nightlife and theme parks",
+      "locations": [
+        {
+          "name": "Nicholini's Italian",
+          "blurb": "Popular Italian restaurant with classic dishes in a cozy setting."
+        },
+        {
+          "name": "Rumi's",
+          "blurb": "Must-visit for Mediterranean flavors. Known for vibrant dishes and welcoming ambiance."
+        },
+        {
+          "name": "Hakata Ramen",
+          "blurb": "Authentic ramen with flavorful broths and hearty bowls. Ideal for a satisfying meal after a day at the beach."
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "heading": "Great Barrier Reef Trip",
+      "details": "Bring motion sickness pills (tours sell them for $8-10 AUD for two pills). Complete dive certification before arriving—if you fail certification at the reef, you may not be allowed to switch to snorkeling. The reef is very much alive, though colors may appear darker than online images suggest unless light hits them perfectly."
+    },
+    {
+      "heading": "Brief Stay Tips",
+      "details": "If you're visiting Cairns for just a couple of nights like many travelers, focus on the Great Barrier Reef experience and explore the Esplanade Lagoon. Consider a trip to the Daintree Rainforest if time allows—it comes highly recommended."
+    }
+  ]
+}

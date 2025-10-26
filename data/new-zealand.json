@@ -1,0 +1,127 @@
+{
+  "slug": "new-zealand",
+  "name": "New Zealand",
+  "overviewText": "New Zealand offers an extraordinary blend of stunning natural landscapes and rich cultural experiences.\n\nFrom the vibrant city life of Auckland with its volcanic cones and harbors to the adventure capital of Queenstown nestled in the Southern Alps, New Zealand captivates at every turn. Explore historic gold rush villages like Arrowtown, witness the majesty of Milford Sound's towering fjords, and hike through pristine alpine landscapes on trails like the Hooker Valley.\n\nIndulge in world-renowned culinary experiences from the legendary Fergburger to fresh local salmon, discover exceptional New Zealand wines, and experience some of the best skiing in the Southern Hemisphere. Whether you're seeking adrenaline-pumping adventures or peaceful moments surrounded by nature's beauty, New Zealand delivers unforgettable experiences at every destination.",
+  "suburbs": [
+    {
+      "name": "Auckland",
+      "blurb": "New Zealand's largest city, known for its volcanic cones, harbors, and diverse culinary scene.",
+      "locations": [
+        {
+          "name": "Eden Noodle House",
+          "blurb": "A beloved spot among locals and visitors alike, serving authentic Sichuan cuisine. Renowned for its spicy, mouth-numbing noodles, this small eatery delivers big on flavor, making it a must-visit for anyone craving a true taste of China in the heart of the city."
+        },
+        {
+          "name": "Meat Pies",
+          "blurb": "More than just a snack—it's a cultural staple. These golden, flaky pastries are filled with savory combinations like minced beef, lamb, or even creative gourmet options. Whether from a bakery or a specialty shop, a warm meat pie is the perfect comfort food, embodying the essence of Kiwi cuisine."
+        },
+        {
+          "name": "One Tree Hill",
+          "blurb": "One Tree Hill, or Maungakiekie, is one of Auckland's most significant landmarks. This volcanic cone, once a Māori pā (fortified village), offers sweeping views of the city and beyond. Surrounded by Cornwall Park, it's a place where history and nature intertwine, inviting visitors to explore its walking trails and discover its rich cultural heritage."
+        },
+        {
+          "name": "Mount Eden",
+          "blurb": "Mount Eden, or Maungawhau, is Auckland's highest natural point, providing panoramic views of the sprawling cityscape and its harbors. This dormant volcano features a large crater at its summit and is a popular spot for both locals and tourists looking to enjoy a leisurely hike, take in the stunning vistas, and experience the natural beauty that Auckland has to offer."
+        }
+      ]
+    },
+    {
+      "name": "Queenstown",
+      "blurb": "The adventure capital of New Zealand, offering world-class dining, stunning landscapes, and endless activities.",
+      "locations": [
+        {
+          "name": "Fergburger",
+          "blurb": "A culinary legend known worldwide for its massive and mouthwatering burgers. Whether you're after the classic beef burger or something more adventurous, Fergburger's diverse menu and fresh, high-quality ingredients make it a must-visit spot for food lovers."
+        },
+        {
+          "name": "Fergbakery",
+          "blurb": "Just next door to Fergburger, offering a delectable range of freshly baked goods. From flaky pastries to savory pies and artisan bread, this bakery is perfect for grabbing a treat on the go or enjoying a leisurely breakfast. Recommended: the Blue Cheese and Steak, and the Chilli Cheese and Steak."
+        },
+        {
+          "name": "Ferggelato",
+          "blurb": "Serves up creamy, authentic Italian-style gelato. With a wide variety of flavors, each scoop is crafted with the finest ingredients, offering a sweet taste of indulgence in the heart of Queenstown."
+        },
+        {
+          "name": "Kuki Time",
+          "blurb": "A sweet spot that specializes in freshly baked cookies and delicious treats. Known for its soft, chewy cookies with a variety of creative flavors, it's the perfect place to indulge your sweet tooth. Whether you're after a classic chocolate chip or something more adventurous, Kuki Time is sure to satisfy your cravings."
+        },
+        {
+          "name": "Yonder",
+          "blurb": "A trendy café and bar offering a vibrant atmosphere and a menu filled with innovative, health-conscious dishes. Known for its diverse offerings, including vegan and gluten-free options, Yonder is a favorite among locals and travelers looking for a stylish spot to eat and unwind."
+        }
+      ]
+    },
+    {
+      "name": "Arrowtown & Wineries",
+      "blurb": "Historic gold rush village and wine country.",
+      "locations": [
+        {
+          "name": "Arrowtown",
+          "blurb": "Nestled in the Otago region, this charming historic village offers a glimpse into New Zealand's gold rush era. With its well-preserved 19th-century buildings, tree-lined streets, and scenic surrounings, Arrowtown is a picturesque destination perfect for history buffs and nature lovers alike."
+        },
+        {
+          "name": "The Winery",
+          "blurb": "Located in various spots including Queenstown and Arrowtown, The Winery offers an exceptional wine-tasting experience. Featuring a wide selection of New Zealand wines, visitors can explore the country's rich viticulture in a relaxed, self-paced setting, making it a great stop for wine enthusiasts."
+        }
+      ]
+    },
+    {
+      "name": "Wanaka & Mount Cook",
+      "blurb": "Stunning alpine landscapes and glacial beauty.",
+      "locations": [
+        {
+          "name": "Lake Wanaka",
+          "blurb": "A stunning glacial lake surrounded by snow-capped mountains and serene landscapes. A favorite for outdoor enthusiasts, this pristine lake offers opportunities for boating, fishing, hiking, and simply soaking in the breathtaking views of one of New Zealand's most picturesque locations."
+        },
+        {
+          "name": "Hooker Valley Trail",
+          "blurb": "Located in Aoraki/Mount Cook National Park, this is one of New Zealand's most popular hikes. The trail winds through alpine landscapes, past stunning glacial lakes, and offers awe-inspiring views of Aoraki/Mount Cook, the country's highest peak, making it a bucket-list experience for nature lovers."
+        },
+        {
+          "name": "Salmon Shop",
+          "blurb": "Known for its fresh, locally sourced salmon. Whether smoked, fresh, or sashimi-grade, the Salmon Shop is a must-visit for seafood enthusiasts looking to savor the rich flavors of the South Island."
+        }
+      ]
+    },
+    {
+      "name": "Fiordland",
+      "blurb": "Home to breathtaking fjords and pristine wilderness.",
+      "locations": [
+        {
+          "name": "Milford Sound",
+          "blurb": "Often referred to as the 'eighth wonder of the world,' Milford Sound is a breathtaking fjord in Fiordland National Park. With towering cliffs, cascading waterfalls, and abundant wildlife, a visit to Milford Sound offers an unforgettable experience of New Zealand's natural beauty, best explored by boat, kayak, or scenic flight."
+        }
+      ]
+    },
+    {
+      "name": "Ski Fields & Rentals",
+      "blurb": "World-class skiing and snowboarding destinations across the Southern Alps.",
+      "locations": [
+        {
+          "name": "Coronet Peak",
+          "blurb": "One of New Zealand's premier ski fields near Queenstown, known for world-class facilities and diverse runs."
+        },
+        {
+          "name": "The Remarkables",
+          "blurb": "Near Queenstown, offering spectacular views and excellent terrain for all skill levels."
+        },
+        {
+          "name": "Mt Hutt",
+          "blurb": "Near Canterbury, offering some of the best powder and longest ski seasons in the country."
+        },
+        {
+          "name": "Cardrona",
+          "blurb": "Cardrona Alpine Resort is a popular ski area in the Southern Alps, offering a mix of runs suitable for all levels. Known for its family-friendly atmosphere, excellent terrain parks, and stunning views, Cardrona is a favorite destination for winter sports enthusiasts."
+        },
+        {
+          "name": "Snow Center",
+          "blurb": "Located in Queenstown, the go-to place for all your ski and snowboard gear needs. Whether you're renting or buying, they offer a wide range of equipment and expert advice to ensure you're well-prepared for the slopes."
+        },
+        {
+          "name": "Browns Ski Rental",
+          "blurb": "A well-established rental shop in Queenstown, known for its high-quality ski and snowboard gear. With a reputation for excellent service and a wide selection of equipment, Browns is a top choice for visitors looking to hit the slopes in style and comfort."
+        }
+      ]
+    }
+  ]
+}

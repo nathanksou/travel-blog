@@ -1,0 +1,144 @@
+{
+  "slug": "melbourne",
+  "name": "Melbourne",
+  "overviewText": "Melbourne is a vibrant cultural hub that seamlessly blends art, food, and natural beauty.\n\nExplore world-class museums like the National Gallery of Victoria (NGV) and ACMI, where art and film come to life through stunning exhibitions and interactive experiences. Stroll along the Yarra River for picturesque views, or immerse yourself in the bustling energy of Swanston Street with its mix of shopping and dining.\n\nIndulge in Melbourne's diverse culinary scene, from authentic Thai street food at Soi 38 to Japanese artisanal treats at Bakemono Bakery. Satisfy your sweet tooth with Filipino-inspired desserts at Karriton Dessert or enjoy a leisurely brunch at Higher Grounds.\n\nBeyond the city, discover the breathtaking Great Ocean Road and the coastal charm of Mornington, making Melbourne the perfect destination for culture lovers and adventure seekers alike.",
+  "recommendations": [
+    {
+      "title": "Soi 38",
+      "description": "Authentic Thai street food with spicy noodles and flavorful curries prepared with fresh ingredients."
+    },
+    {
+      "title": "Bakemono Bakery",
+      "description": "Japanese bakery on Little Lonsdale Street with flaky croissants, soft breads, and unique donuts."
+    },
+    {
+      "title": "National Gallery of Victoria (NGV)",
+      "description": "Australia's oldest and largest art museum featuring classical and contemporary art exhibitions."
+    },
+    {
+      "title": "Yarra River Walk",
+      "description": "Stroll or bike ride along the picturesque Yarra River for stunning city views and leisure cruises."
+    }
+  ],
+  "activities": [
+    {
+      "name": "Cultural Attractions",
+      "highlights": [
+        "ACMI (Australian Centre for the Moving Image) - Interactive museum for film, TV, and digital culture",
+        "National Gallery of Victoria (NGV) - Australia's oldest and largest art museum with classical and contemporary art",
+        "Explore Swanston Street - Bustling CBD thoroughfare with shopping and landmarks"
+      ]
+    },
+    {
+      "name": "Scenic Activities",
+      "highlights": [
+        "Walk or bike ride along the Yarra River",
+        "Take a leisurely cruise on the Yarra River to see city landmarks"
+      ]
+    },
+    {
+      "name": "Day Trips",
+      "highlights": [
+        "Great Ocean Road",
+        "Mornington"
+      ]
+    }
+  ],
+  "suburbs": [
+    {
+      "name": "CBD & Central",
+      "blurb": "Melbourne's central business district offers a mix of cultural attractions, dining, and shopping",
+      "locations": [
+        {
+          "name": "Soi 38",
+          "blurb": "Authentic Thai street food with spicy noodles and flavorful curries prepared with fresh ingredients."
+        },
+        {
+          "name": "Homm",
+          "blurb": "Thai bingsu and shokupan (Japanese milk bread)."
+        },
+        {
+          "name": "Sebastian's Kokiguri",
+          "blurb": "Japanese cuisine."
+        },
+        {
+          "name": "Karriton Dessert",
+          "blurb": "Filipino-inspired sweets with unique flavors. Ube-flavor ice cream on sweet bread is a must-try."
+        },
+        {
+          "name": "Bakemono Bakery",
+          "blurb": "Japanese bakery on Little Lonsdale Street with flaky croissants, soft breads, and unique donuts."
+        },
+        {
+          "name": "Higher Grounds",
+          "blurb": "Popular brunch spot."
+        },
+        {
+          "name": "Dragon Hotpot",
+          "blurb": "Well-recommended hotpot with fresh ingredients and savory broths. Great for group dining."
+        },
+        {
+          "name": "Kumo",
+          "blurb": "Souffle pancakes."
+        },
+        {
+          "name": "Hareruya",
+          "blurb": "Japanese cuisine."
+        },
+        {
+          "name": "Wong's Late Night Hot Pot",
+          "blurb": "Late-night hotpot option."
+        },
+        {
+          "name": "Nana Thai",
+          "blurb": "Thai cuisine."
+        },
+        {
+          "name": "Fuumi fuumi",
+          "blurb": "Beef stew specialty."
+        },
+        {
+          "name": "Bun Bun Bakery",
+          "blurb": "Asian bakery."
+        },
+        {
+          "name": "Publique Bakery",
+          "blurb": "Artisanal bakery."
+        }
+      ]
+    },
+    {
+      "name": "South Yarra",
+      "blurb": "Trendy neighborhood with upscale dining and shopping",
+      "locations": [
+        {
+          "name": "Two Birds One Stone",
+          "blurb": "Popular dining spot in South Yarra."
+        }
+      ]
+    },
+    {
+      "name": "Thai Town",
+      "blurb": "Melbourne's Thai dining hub",
+      "locations": []
+    },
+    {
+      "name": "Other Notable Spots",
+      "blurb": "Additional dining recommendations across Melbourne",
+      "locations": [
+        {
+          "name": "Buza Chicken",
+          "blurb": "Specialty chicken dishes."
+        },
+        {
+          "name": "Marios",
+          "blurb": "Famous for fried gnocchi."
+        },
+        {
+          "name": "Bar Holiday",
+          "blurb": "Bar and dining."
+        }
+      ]
+    }
+  ]
+}

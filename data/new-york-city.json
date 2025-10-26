@@ -1,0 +1,380 @@
+{
+  "slug": "new-york-city",
+  "name": "New York City",
+  "overviewText": "New York City is a vibrant metropolis that never sleeps, offering an unparalleled blend of culture, cuisine, and iconic landmarks.\n\nFrom world-class museums like MoMA and the Met to diverse neighborhoods filled with authentic international cuisine, NYC has something for every taste. Explore the trendy streets of Williamsburg, savor authentic ramen in the East Village, or indulge in exclusive dining experiences through the Dorsia app.\n\nWhether you're catching a show in Midtown, exploring the artistic enclaves of the Lower East Side, or enjoying the waterfront views in Long Island City, New York City promises unforgettable experiences at every corner.",
+  "recommendations": [
+    {
+      "title": "Koreatown (Ktown)",
+      "description": "Authentic Korean BBQ and cuisine with late-night dining, karaoke, and vibrant atmosphere in Midtown Manhattan."
+    },
+    {
+      "title": "Williamsburg, Brooklyn",
+      "description": "Trendy cafes, artisanal shops, waterfront views, and vibrant nightlife scene in Brooklyn's hippest neighborhood."
+    },
+    {
+      "title": "East Village",
+      "description": "Diverse Asian cuisine from Japanese ramen to Vietnamese pho, plus iconic NYC bars and bohemian culture."
+    },
+    {
+      "title": "World-Class Museums",
+      "description": "Visit MoMA for modern art, the Met for classical masterpieces, and the Museum of Natural History for science exhibits."
+    }
+  ],
+  "activities": [
+    {
+      "name": "Museums",
+      "highlights": [
+        "MoMA (Museum of Modern Art)",
+        "The Met (Metropolitan Museum of Art)",
+        "Museum of Natural History"
+      ]
+    },
+    {
+      "name": "Midtown Attractions",
+      "highlights": [
+        "Penn Station",
+        "Madison Square Garden",
+        "Madison Square Park",
+        "Bryant Park"
+      ]
+    },
+    {
+      "name": "Day Trips",
+      "highlights": [
+        "Big Snow - Indoor skiing in New Jersey",
+        "Surf Center - New Jersey",
+        "Fort Lee - Korean suburb in New Jersey"
+      ]
+    },
+    {
+      "name": "Other Activities",
+      "highlights": [
+        "Ferry to see the Statue of Liberty",
+        "Green Tile Social Club (@greentilesocialclub)",
+        "US Open: day pass, food and novelty us open drinks souvenir cup",
+        "New York Fashion Week",
+        "Upstate Fall Foliage - apple picking"
+      ]
+    }
+  ],
+  "suburbs": [
+    {
+      "name": "Exclusive Dining",
+      "blurb": "Premium dining experiences accessible through Dorsia app",
+      "locations": [
+        {
+          "name": "Carbone Privato",
+          "blurb": "Exclusive Italian dining at 37 Hudson Yards, 2nd Floor. Book through Dorsia app."
+        },
+        {
+          "name": "Cote",
+          "blurb": "Upscale Korean BBQ experience."
+        },
+        {
+          "name": "Kazunori",
+          "blurb": "High-end sushi experience."
+        },
+        {
+          "name": "Moxi",
+          "blurb": "Contemporary dining."
+        },
+        {
+          "name": "Joe's Steamed Rice Rolls",
+          "blurb": "Authentic Cantonese rice rolls."
+        },
+        {
+          "name": "Jua",
+          "blurb": "Korean fine dining."
+        },
+        {
+          "name": "Bun An Mee",
+          "blurb": "Vietnamese cuisine."
+        }
+      ]
+    },
+    {
+      "name": "Ramen & Noodles",
+      "blurb": "Authentic Japanese and Asian noodle spots",
+      "locations": [
+        {
+          "name": "Karakatta",
+          "blurb": "Authentic ramen experience."
+        },
+        {
+          "name": "Soba Totto",
+          "blurb": "Traditional soba noodles."
+        },
+        {
+          "name": "Sanuki Udon",
+          "blurb": "Authentic udon noodles."
+        },
+        {
+          "name": "Ho Foods",
+          "blurb": "Taiwanese beef noodle soup."
+        },
+        {
+          "name": "Forma Pasta",
+          "blurb": "Fresh Italian pasta."
+        }
+      ]
+    },
+    {
+      "name": "Japanese Dining",
+      "blurb": "Izakayas and Japanese restaurants",
+      "locations": [
+        {
+          "name": "Ikigai",
+          "blurb": "Japanese cuisine and sake."
+        },
+        {
+          "name": "Sakagura",
+          "blurb": "Hidden izakaya in Midtown with extensive sake selection."
+        }
+      ]
+    },
+    {
+      "name": "Omakase",
+      "blurb": "Premium sushi omakase experiences",
+      "locations": [
+        {
+          "name": "Sushi by Bou",
+          "blurb": "Intimate omakase experience."
+        },
+        {
+          "name": "Thirteen Water",
+          "blurb": "High-end omakase."
+        },
+        {
+          "name": "Hatsuhana",
+          "blurb": "Traditional sushi omakase."
+        }
+      ]
+    },
+    {
+      "name": "LIC (Long Island City)",
+      "blurb": "Queens neighborhood with diverse dining and bars",
+      "locations": [
+        {
+          "name": "LIC Food Hall",
+          "blurb": "Food hall with various vendors."
+        },
+        {
+          "name": "Chef Papa",
+          "blurb": "Local restaurant."
+        },
+        {
+          "name": "Vernon Grille",
+          "blurb": "American dining."
+        },
+        {
+          "name": "FER",
+          "blurb": "Contemporary dining."
+        },
+        {
+          "name": "Seven Scents",
+          "blurb": "BBQ skewers."
+        },
+        {
+          "name": "Sapps",
+          "blurb": "Japanese restaurant and bar."
+        },
+        {
+          "name": "Dutch Kills Bar",
+          "blurb": "Classic cocktail bar."
+        }
+      ]
+    },
+    {
+      "name": "Ktown (Koreatown)",
+      "blurb": "Manhattan's Korean neighborhood with authentic cuisine and nightlife",
+      "locations": [
+        {
+          "name": "Gammeok",
+          "blurb": "Korean soup specialist."
+        },
+        {
+          "name": "Tosokchon",
+          "blurb": "Traditional Korean cuisine."
+        },
+        {
+          "name": "Udon Lab",
+          "blurb": "Korean-style udon."
+        },
+        {
+          "name": "Sarum Sushi and Udon",
+          "blurb": "Japanese-Korean fusion."
+        },
+        {
+          "name": "Den Social",
+          "blurb": "Nightclub."
+        },
+        {
+          "name": "Jongro",
+          "blurb": "Korean BBQ."
+        },
+        {
+          "name": "Space Karaoke",
+          "blurb": "Karaoke rooms."
+        },
+        {
+          "name": "Maru",
+          "blurb": "Korean dining."
+        }
+      ]
+    },
+    {
+      "name": "Union Square",
+      "blurb": "Central Manhattan area",
+      "locations": [
+        {
+          "name": "La Dong",
+          "blurb": "Vietnamese cuisine."
+        }
+      ]
+    },
+    {
+      "name": "East Village & Lower East Side",
+      "blurb": "Hip neighborhoods with diverse Asian dining and nightlife",
+      "locations": [
+        {
+          "name": "886",
+          "blurb": "Taiwanese restaurant."
+        },
+        {
+          "name": "La La Bakery",
+          "blurb": "Vietnamese bakery."
+        },
+        {
+          "name": "Win Son Bakery",
+          "blurb": "Taiwanese fantuan, pancakes, and more."
+        },
+        {
+          "name": "Izakaya Juraku",
+          "blurb": "Japanese izakaya."
+        },
+        {
+          "name": "Hi-Collar",
+          "blurb": "Japanese bar and café."
+        },
+        {
+          "name": "Soba-ya",
+          "blurb": "Traditional Japanese soba."
+        },
+        {
+          "name": "Public",
+          "blurb": "Rooftop bar."
+        }
+      ]
+    },
+    {
+      "name": "Chinatown",
+      "blurb": "Manhattan's Chinatown with authentic Chinese and Vietnamese cuisine",
+      "locations": [
+        {
+          "name": "Nam Son",
+          "blurb": "Vietnamese restaurant."
+        },
+        {
+          "name": "Golden Unicorn",
+          "blurb": "Dim sum restaurant."
+        }
+      ]
+    },
+    {
+      "name": "Williamsburg",
+      "blurb": "Brooklyn's trendy neighborhood with cafes, restaurants, and nightlife",
+      "locations": [
+        {
+          "name": "Domino Park",
+          "blurb": "Waterfront park with views of Manhattan."
+        },
+        {
+          "name": "Spikeball",
+          "blurb": "Social spikeball games. Follow @nycroundnets on Instagram."
+        },
+        {
+          "name": "Fish Cheeks",
+          "blurb": "Thai seafood restaurant."
+        },
+        {
+          "name": "Mr Moto",
+          "blurb": "Japanese-inspired dining."
+        },
+        {
+          "name": "Antidote",
+          "blurb": "Wine bar."
+        },
+        {
+          "name": "VITAL",
+          "blurb": "Health-focused café."
+        },
+        {
+          "name": "Grind House",
+          "blurb": "Coffee shop."
+        },
+        {
+          "name": "Copper Mug Coffee",
+          "blurb": "Coworking café."
+        },
+        {
+          "name": "Lion's Milk",
+          "blurb": "Coworking space."
+        },
+        {
+          "name": "Poetica",
+          "blurb": "Coworking café."
+        },
+        {
+          "name": "Joe's Pizza",
+          "blurb": "Classic New York pizza."
+        },
+        {
+          "name": "L'Industrie Pizza",
+          "blurb": "Artisan pizza."
+        },
+        {
+          "name": "Black Brick Coffee",
+          "blurb": "Specialty coffee."
+        },
+        {
+          "name": "Blue Bottle Coffee",
+          "blurb": "Premium coffee chain."
+        },
+        {
+          "name": "Designer's Collab",
+          "blurb": "Creative space and café."
+        },
+        {
+          "name": "Honeys",
+          "blurb": "Restaurant and bar."
+        },
+        {
+          "name": "Elsewhere",
+          "blurb": "Music venue and nightclub."
+        }
+      ]
+    },
+    {
+      "name": "Flushing, Queens",
+      "blurb": "Asian enclave with authentic Chinese, Korean, and Asian cuisine"
+    }
+  ],
+  "tips": [
+    {
+      "heading": "Dorsia App",
+      "details": "Use the Dorsia app to access exclusive restaurant reservations at premium dining spots like Carbone Privato. Book well in advance for the best experiences."
+    },
+    {
+      "heading": "Public Transportation",
+      "details": "NYC's subway system is the most efficient way to get around. Purchase a MetroCard or use contactless payment (Apple Pay, Google Pay) for easy access. Consider getting an unlimited weekly pass if staying for an extended period."
+    },
+    {
+      "heading": "Neighborhoods to Explore",
+      "details": "Each NYC neighborhood has its own character. Williamsburg is trendy and artistic, Ktown offers authentic Korean experiences, East Village has diverse Asian cuisine, and Flushing in Queens has the most authentic Chinese food outside of China."
+    },
+    {
+      "heading": "Reservations",
+      "details": "Popular restaurants fill up quickly, especially on weekends. Make reservations well in advance, particularly for omakase experiences and upscale dining."
+    }
+  ]
+}
