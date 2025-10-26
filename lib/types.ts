@@ -1,11 +1,11 @@
 export type DestinationMeta = {
   slug: string;
   name: string;
-  image: string;
+  country: string;
+  description: string;
 };
 
 export type Tip = {
-  heading: string;
   details: string;
 };
 
@@ -23,11 +23,15 @@ export type Suburb = Location & {
   locations?: Location[];
 };
 
+export type Recommendation = {
+  title: string;
+  description: string;
+};
+
 export type Destination = DestinationMeta & {
-  overviewImage?: string;
   overviewText: string;
   tips?: Tip[];
-  recommendations?: string[];
+  recommendations?: Recommendation[];
   activities?: Activity[];
   suburbs?: Suburb[];
 };

@@ -1,34 +1,33 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { memo } from "react";
 import { Destination } from "@/lib/types";
+import { Lightbulb } from "lucide-react";
+import { SectionHeader } from "@/components/ui/section-header";
 
 type TipsAccordionProps = {
   tips: Destination["tips"];
 };
 
-export const TipsAccordion = ({ tips = [] }: TipsAccordionProps) => {
+export const TipsAccordion = memo(({ tips = [] }: TipsAccordionProps) => {
   if (!tips || tips.length === 0) return null;
 
   return (
-    <div className="my-6">
-      <h2 className="text-xl font-bold">Tips</h2>
-      <Accordion
-        type="multiple"
-        defaultValue={tips.map((_, index) => `tip-${index}`)}
-      >
+    <section className="mb-8">
+      <SectionHeader>Essential Tips</SectionHeader>
+      <ul className="space-y-3">
         {tips.map((tip, index) => (
-          <AccordionItem key={`tip-${index}`} value={`tip-${index}`}>
-            <AccordionTrigger className="font-bold">
-              {tip.heading}
-            </AccordionTrigger>
-            <AccordionContent>{tip.details}</AccordionContent>
-          </AccordionItem>
+          <li key={`tip-${index}`} className="flex gap-3">
+            {/* Lightbulb icon */}
+            <span className="flex-shrink-0">
+              <Lightbulb className="w-5 h-5 text-yellow-500" />
+            </span>
+            <div>
+              <p className="text-slate-700 leading-relaxed">{tip.details}</p>
+            </div>
+          </li>
         ))}
-      </Accordion>
-    </div>
+      </ul>
+    </section>
   );
-};
+});
+
+TipsAccordion.displayName = "TipsAccordion";
