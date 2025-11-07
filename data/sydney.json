@@ -40,7 +40,9 @@
     },
     {
       "name": "Ferry to Manly Beach",
-      "highlights": ["Snorkel along the way and at Shelley Beach"]
+      "highlights": [
+        "Snorkel along the way and at Shelley Beach"
+      ]
     },
     {
       "name": "City Walk",
@@ -80,7 +82,6 @@
           "name": "Mango Coco",
           "blurb": "Renowned for desserts like Egg on Nest. Worth a visit for a sweet treat."
         },
-
         {
           "name": "Spicy Joint",
           "blurb": "Perfect for those who love a good Mala/Szechuan spice experience."
@@ -183,7 +184,6 @@
         }
       ]
     },
-
     {
       "name": "Bars",
       "blurb": "Bars",
@@ -394,5 +394,6 @@
       "heading": "Airport Transport",
       "details": "Avoid taking the train between the airport and the city; it's quite expensive at $25-35 per person. Avoid taxis too, as they can be pricey, especially if they think you're a tourist—they may charge a higher rate. For groups, it's often more economical to take an Uber or DiDi. During non-peak times, an Uber might cost around $35-$40, which is reasonable if split among two or more people. During peak times, prices can soar to $60-$80, but check DiDi as their prices are typically cheaper, and walk to the pickup point."
     }
-  ]
+  ],
+  "image": "https://picsum.photos/seed/sydney-hero/800/600"
 }

@@ -1,24 +1,24 @@
+import Image from "next/image";
+
 type DestinationHeroProps = {
   name: string;
-  description: string;
+  image: string;
 };
 
 export const DestinationHero = ({
   name,
-  description,
+  image,
 }: DestinationHeroProps) => {
   return (
-    <div className="relative bg-[#B3C8CF] mb-8">
-      {/* Hero content */}
-      <div className="max-w-3xl mx-auto px-6 py-16">
-        {/* Destination name */}
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-slate-900">{name}</h1>
-
-        {/* Description */}
-        <p className="text-lg text-slate-700 leading-relaxed max-w-2xl">
-          {description}
-        </p>
-      </div>
+    <div className="relative w-full h-[400px] md:h-[500px] mb-8">
+      <Image
+        src={image}
+        alt={name}
+        fill
+        className="object-cover"
+        priority
+        sizes="100vw"
+      />
     </div>
   );
 };

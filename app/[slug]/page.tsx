@@ -48,7 +48,7 @@ export default async function DestinationPage({ params }: Props) {
       <DestinationNav name={destination.name} />
       <DestinationHero
         name={destination.name}
-        description={destination.description}
+        image={destination.image}
       />
       <div className="max-w-3xl mx-auto px-6 pb-12">
         {/* Overview Section */}
