@@ -3,84 +3,98 @@
     "slug": "sydney",
     "name": "Sydney",
     "country": "Australia",
-    "description": "Australia's harbor city featuring iconic landmarks and stunning beaches"
+    "description": "Australia's harbor city featuring iconic landmarks and stunning beaches",
+    "image": "https://picsum.photos/seed/sydney/800/600"
   },
   {
     "slug": "jervis-bay",
     "name": "Jervis Bay",
     "country": "Australia",
-    "description": "Pristine beaches with crystal-clear waters and abundant marine life"
+    "description": "Pristine beaches with crystal-clear waters and abundant marine life",
+    "image": "https://picsum.photos/seed/jervis-bay/800/600"
   },
   {
     "slug": "melbourne",
     "name": "Melbourne",
     "country": "Australia",
-    "description": "Australia's cultural capital known for coffee, art, and hidden laneways"
+    "description": "Australia's cultural capital known for coffee, art, and hidden laneways",
+    "image": "https://picsum.photos/seed/melbourne/800/600"
   },
   {
     "slug": "cairns-gold-coast",
     "name": "Cairns & Gold Coast",
     "country": "Australia",
-    "description": "Tropical paradise with the Great Barrier Reef and stunning beaches"
+    "description": "Tropical paradise with the Great Barrier Reef and stunning beaches",
+    "image": "https://picsum.photos/seed/cairns/800/600"
   },
   {
     "slug": "singapore",
     "name": "Singapore",
     "country": "Singapore",
-    "description": "A vibrant city-state blending futuristic architecture with rich cultural heritage"
+    "description": "A vibrant city-state blending futuristic architecture with rich cultural heritage",
+    "image": "https://picsum.photos/seed/singapore/800/600"
   },
   {
     "slug": "bali",
     "name": "Bali",
     "country": "Indonesia",
-    "description": "Island paradise with stunning beaches, ancient temples, and lush landscapes"
+    "description": "Island paradise with stunning beaches, ancient temples, and lush landscapes",
+    "image": "https://picsum.photos/seed/bali/800/600"
   },
   {
     "slug": "hong-kong",
     "name": "Hong Kong",
     "country": "Hong Kong",
-    "description": "A dynamic fusion of East and West with stunning skyline and vibrant culture"
+    "description": "A dynamic fusion of East and West with stunning skyline and vibrant culture",
+    "image": "https://picsum.photos/seed/hong-kong/800/600"
   },
   {
     "slug": "taiwan",
     "name": "Taiwan",
     "country": "Taiwan",
-    "description": "A beautiful island with night markets, temples, and incredible street food"
+    "description": "A beautiful island with night markets, temples, and incredible street food",
+    "image": "https://picsum.photos/seed/taiwan/800/600"
   },
   {
     "slug": "vietnam",
     "name": "Vietnam",
     "country": "Vietnam",
-    "description": "Rich history, delicious cuisine, and breathtaking natural landscapes"
+    "description": "Rich history, delicious cuisine, and breathtaking natural landscapes",
+    "image": "https://picsum.photos/seed/vietnam/800/600"
   },
   {
     "slug": "new-zealand",
     "name": "New Zealand",
     "country": "New Zealand",
-    "description": "Stunning natural beauty from mountains to fjords and pristine beaches"
+    "description": "Stunning natural beauty from mountains to fjords and pristine beaches",
+    "image": "https://picsum.photos/seed/new-zealand/800/600"
   },
   {
     "slug": "new-york-city",
     "name": "New York City",
     "country": "United States",
-    "description": "The city that never sleeps with iconic landmarks and world-class culture"
+    "description": "The city that never sleeps with iconic landmarks and world-class culture",
+    "image": "https://picsum.photos/seed/nyc/800/600"
   },
   {
     "slug": "flushing",
     "name": "Flushing",
     "country": "United States",
-    "description": "Vibrant neighborhood in Queens with authentic Asian cuisine and culture"
+    "description": "Vibrant neighborhood in Queens with authentic Asian cuisine and culture",
+    "image": "https://picsum.photos/seed/flushing/800/600"
   },
   {
     "slug": "la",
     "name": "Los Angeles",
     "country": "United States",
-    "description": "City of entertainment with beaches, celebrities, and endless sunshine"
+    "description": "City of entertainment with beaches, celebrities, and endless sunshine",
+    "image": "https://picsum.photos/seed/la/800/600"
   },
   {
     "slug": "sf-south-bay",
     "name": "San Francisco & South Bay",
     "country": "United States",
-    "description": "Tech hub and cultural center with iconic landmarks and diverse neighborhoods"
+    "description": "Tech hub and cultural center with iconic landmarks and diverse neighborhoods",
+    "image": "https://picsum.photos/seed/sf/800/600"
   }
 ]

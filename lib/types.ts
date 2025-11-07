@@ -3,6 +3,7 @@ export type DestinationMeta = {
   name: string;
   country: string;
   description: string;
+  image: string;
 };
 
 export type Tip = {
